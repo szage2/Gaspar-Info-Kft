@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gaspar Info Kft</string>
+    <string name="profile">Consultancy and financial accounting for SMEs</string>
+    <string name="open">8:00 AM - 16:00 PM</string>
+    <string name="phone">+36 70 383 9412</string>
+    <string name="email">gasparinfo.csilla@gmail.com</string>
+    <string name="address">Hungaria krt. 15, 1143 Budapest, Hungary</string>
+
+</resources>

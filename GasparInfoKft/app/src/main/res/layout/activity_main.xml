@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gasparinfokft.MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/background_1"
+        tools:ignore="ContentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/corp_description"
+                android:src="@drawable/profile"
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                />
+            <TextView
+                android:id="@+id/identity"
+                style="@style/TextTheme"
+                android:text="@string/profile"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/clock"
+                android:src="@drawable/open"
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                />
+
+            <TextView
+                android:id="@+id/corp_opening_hours"
+                style="@style/TextTheme"
+                android:text="@string/open"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/telephone"
+                android:src="@drawable/phone"
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                />
+
+            <TextView
+                android:id="@+id/corp_phone_number"
+                style="@style/TextTheme"
+                android:text="@string/phone"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/envelope"
+                android:src="@drawable/message"
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                />
+
+            <TextView
+                android:id="@+id/corp_email"
+                style="@style/TextTheme"
+                android:text="@string/email"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/open_website_btn"
+                android:src="@drawable/location"
+                tools:ignore="ContentDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:scaleType="fitCenter"
+                android:onClick="openURLinBrowser"
+                />
+
+            <TextView
+                android:id="@+id/corp_address"
+                style="@style/TextTheme"
+                android:text="@string/address"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+
+</LinearLayout>
